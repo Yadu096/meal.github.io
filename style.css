@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(bg-image.jpeg);
+    
+  }
+  
+  .search-container {
+    position: relative;
+    top: 120%;
+    left: 65%;
+    width: 450px;
+  }
+  
+  #search-input {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+  }
+  
+  #suggestions {
+    position: absolute;
+    top: 43px;
+    width: 100%;
+    list-style:none;
+    padding: 0;
+    background-color: #f9f9f9;
+    border: 2px solid black;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  #suggestions li {
+    padding: 8px;
+    cursor: pointer;
+  }
+  
+  #suggestions li:hover {
+    background-color: #e0e0e0;
+    cursor: pointer;
+  }
+  
